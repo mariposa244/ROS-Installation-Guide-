@@ -23,7 +23,11 @@ Save the ISO file to your computer.
 After creating the virtual machine, select it from the list in VirtualBox and click "Start".
 the virtual machine would appear like the following image:
 ![telegram-cloud-photo-size-4-5827940071855212229-x](https://github.com/user-attachments/assets/fb923c05-915f-4b1f-a087-32c69f468fe0)
+
+
 When a window appears showing that the machine failed to boot, choose the Ubuntu 20.04 ISO file you downloaded and click "Start"
+
+
 ![telegram-cloud-photo-size-4-5827940071855212230-x](https://github.com/user-attachments/assets/7c2c8759-c12c-4bb5-b23b-16cacaff1521)
 
 and then Follow the on-screen instructions to install Ubuntu 20.04 on the virtual machine. and to avoid any errors go to settings> about> software updates and turn off the “Download updates while installing Ubuntu” option so that it does not update Ubuntu 20.04.
@@ -71,6 +75,8 @@ You will notice that the current directory of your prompt changes to  /opt/ros/n
 We can also verify the installation by running roscore command in the noetic directory.  The output displays the ros distro and the ros version in the summary. 
 
 ```roscore```
+
+
 ![telegram-cloud-photo-size-4-5827940071855212225-x](https://github.com/user-attachments/assets/8c646c48-8724-4843-8eee-a61ffbc8d1ab)
 
 Now you can program your robots using Noetic.
